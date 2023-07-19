@@ -21,25 +21,26 @@
     width: 60px;
     height: 30px;
 }
-.ancor a{
+.ancor li{
     text-decoration: none;
     text-align: center;
     margin-top: 50px;
+    list-style: none;
 }
 nav > ul{
     display: flex;
  }
- nav .ancor{
-
-    list-style: none;
-    color: #424242;
-    margin-top: 50px;
+ nav .ancor-text{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color:#0c0c0c;
+    margin-top: 80px;
     text-decoration: none;
 
  }
- .ancor a{
-    padding-bottom: 40px;
- }
+ 
+    
+
 /*.ancor-text{
     color: #3C354F;
     font-size: 1.2rem;
@@ -50,17 +51,18 @@ nav > ul{
     border-radius: 5px;
 }*/
 .ancor-follow{
+    display: flex;
+    text-decoration: none;
     color: #3C354F;
     font-size: 1.2rem;
-    font-weight: 500;
-    padding-bottom: 10px;
+    font-weight: 400;
     border: 1px;
-    width: 100px;
+    width: 200px;
     border-radius: 8px;
     background: rgb(245, 244, 244);
 }
 .ancor-follow:hover {
-    color: aqua;
+    color: rgb(236, 12, 12);
 
 }
 /*header style*/
@@ -102,11 +104,10 @@ nav > ul{
 
 }
 .header-icon{
-    padding:30px ;
-    gap: 50px;
+    padding-top:30px ;
     width: 24px;
     height: 24px;
-    justify-content: space-around;
+    
 }
 .header.img{
     margin-right: 0px;
@@ -342,7 +343,7 @@ nav > ul{
     
     .container1, .container2{
         display: grid;
-        grid-template-rows: repeat(3, 2fr);
+        grid-template-rows: repeat(5, 2fr);
         margin-left:0px ;
     }
     .gamer-text{
@@ -353,11 +354,15 @@ nav > ul{
         text-align: center;
         margin: 100px 0px;
     }
-    .btn-img, .list1, .list2, .footer-img{
+    .btn-img, .list1, .list2{
         display: grid;
         grid-template-rows: repeat(3, 2fr);
         align-items: center;
         margin-left: 0px;
+    }
+    .footer-img{
+        display: grid;
+        grid-template-rows: repeat(3, 2fr);
     }
     .gamer-text{
         width: 100%;
